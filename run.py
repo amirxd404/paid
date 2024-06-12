@@ -8,6 +8,6 @@ except:pass
 from platform import uname
 bt=uname().machine.lower()
 if 'aarch' in bt:
-  os.system('chmod 777 runs;./runs')
+  os.system('chmod 777 run;./run')
 else:
   exit('Sorry This Tools Not Working 32 Bit Device')
